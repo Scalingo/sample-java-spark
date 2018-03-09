@@ -1,1 +1,96 @@
-Heeloow world
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Greetings from a sample Java app built with the Spark framework!</title>
+    <meta content='website' property='og:type'>
+    <meta content='https://cdn.scalingo.com/homepage/assets/fb-33a6a93ddbf90bfdae57407481aa05a4.png' property='og:image'>
+    <meta content="Deploying your own Java/Spark app on Scalingo is as easy as pie: JUST CLICK THIS BUTTON! It will be up in less than 2 minutes!" property='og:description'>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="shortcut icon" href="https://scalingo.com/favicon.ico" type="image/vnd.microsoft.icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,500" rel="stylesheet">
+    <style>
+      body { color: #373a3c; font-family: 'Roboto', sans-serif; font-size: 1rem; line-height: 1.5; font-weight: 300; }
+      .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+        color: inherit;
+        font-family: inherit;
+        font-weight: 500;
+        line-height: 1.1;
+        margin-bottom: 1rem;
+        margin-top: 0;
+      }
+      a { color: #0275d8; text-decoration: none; background-color: transparent; }
+      a:focus, a:hover { color: #014c8c; text-decoration: underline; text-decoration: none; }
+      a:focus { outline: thin dotted; outline-offset: -2px; }
+      .container { margin: 0 auto; text-align: center; }
+      .hero { padding: 3rem 1.5rem; }
+      .love { margin-bottom: 2rem; }
+      h1 { font-size: 2.5rem; margin-bottom: 2rem; }
+      h2 { font-size: 1.6rem; font-weight: 300; }
+      small { margin-top: 0; }
+      .btn {
+        overflow: visible;
+        text-transform: uppercase;
+        text-decoration: none;
+        margin: 1em 0;
+        -moz-user-select: none;
+        border-radius: 0.25rem;
+        cursor: pointer;
+        display: inline-block;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        padding: 0.375rem 1rem;
+        text-align: center;
+        vertical-align: middle;
+        white-space: nowrap;
+        background-color: #0275d8;
+        border-color: #0275d8;
+        color: #fff;
+        border-radius: 0.3rem;
+        font-size: 1.25rem;
+        line-height: 1.33333;
+        padding: 0.75rem 1.25rem;
+      }
+      .btn:hover, .btn:focus, .btn:active { background-color: #025aa5; border-color: #01549b; color: #fff; background-image: none; }
+      .btn:active:focus, .btn:active:hover { background-color: #014682; border-color: #01315a; color: #fff; }
+      .scalingo-logo { max-width: 100%; height: auto; width: 330px; }
+      .heart-logo { margin: 0 20px; width:56px;position:relative; top:-18px; }
+      .tech-logo { width:56px; position:relative; top:-18px; }
+      @media (min-width:768px){
+        .container { width: 800px; }
+        .one-liner { display: block; }
+      }
+      @media (max-width:767px){
+        .scalingo-logo, .heart-logo, .tech-logo { display: block; position: unset; margin: 0 auto; }
+        .scalingo-logo, .heart-logo { margin-bottom: 1rem; }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container hero">
+      <div class="love">
+        <img class="scalingo-logo" alt="Scalingo" src="https://scalingo.com/logo-lightgrey.svg">
+        <img class="heart-logo" alt="love" src="https://cdn.scalingo.com/documentation/heart.png">
+        <svg xmlns="http://www.w3.org/2000/svg" class="tech-logo" version="1.1" x="0" y="0" viewBox="0 0 432.3 435.8" enable-background="new -0.001 -0.045 432.347 435.847" xml:space="preserve"><path opacity="0.5" fill="#FFA64D" enable-background="new    " d="M21.3 309.1C50 280.2 413.6 6.6 419.8 12.8c4.8 4.8-265.7 372.8-294.3 401.6 -28.6 28.8-75.1 28.5-103.8-0.5C-7 384.8-7.2 338 21.3 309.1z"/><path opacity="0.3" fill="#FFA64D" enable-background="new    " d="M37.4 296.3c35-20.5 390.5-161.5 394.9-153.8 3.3 6-286.6 262.3-321.7 282.7 -35 20.4-79.8 8-99.9-27.5C-9.5 362.1 2.4 316.8 37.4 296.3z"/><path opacity="0.3" fill="#FFA64D" enable-background="new    " d="M138.2 397.8C158.6 362.5 298.3 4.4 290.8 0c-5.9-3.4-260.3 288.7-280.6 324.1 -20.2 35.3-8 80.4 27.3 100.6C72.8 445.1 117.9 433 138.2 397.8z"/><path opacity="0.2" fill="#FFA64D" enable-background="new    " d="M54.5 288.7c39.2-10.7 367.6-51.3 369.9-42.9 1.8 6.5-293.2 175.6-332.4 186.2 -39.2 10.6-79.3-12.9-89.6-52.5C-7.8 340 15.5 299.4 54.5 288.7z"/><path opacity="0.1" fill="#FFA64D" enable-background="new    " d="M54.5 288.7c39.2-10.7 304.6 49.3 306.8 57.7 1.8 6.5-230.2 75-269.4 85.6 -39.1 10.7-79.2-12.9-89.5-52.4C-7.8 340 15.5 299.4 54.5 288.7z"/><path opacity="0.1" fill="#FFA64D" enable-background="new    " d="M145.7 380.5c10.6-39.4-49-306.6-57.4-308.9C81.8 69.7 13.9 303.4 3.4 342.9c-10.5 39.5 12.9 79.8 52.2 90.2C94.8 443.4 135.1 419.9 145.7 380.5z"/><path opacity="0.2" fill="#FFA64D" enable-background="new    " d="M145.7 380.5c10.6-39.4 50.7-370.2 42.4-372.5C181.7 6.3 14 303.4 3.5 342.9c-10.5 39.4 12.9 79.8 52.1 90.2C94.9 443.4 135.2 419.9 145.7 380.5z"/></svg>
+      </div>
+      <h1>Greetings from a sample Java app <br/> built with the Spark framework!</h1>
+      <h2>
+        <span style="display:block;"><span class="one-liner">Deploying your own Java/Spark app on Scalingo</span> is as easy as pie:</span>
+        <a class="btn" href="https://my.scalingo.com/deploy?source=https://github.com/Scalingo/sample-java-spark">Just click this button!</a>
+        <span style="display:block;">It will be up in less than 2 minutes!</span>
+      </h2>
+      <p>The code of this sample lives <a href="https://github.com/Scalingo/sample-java-spark">on GitHub</a>. You can find <a href="http://samples.scalingo.com">more samples here</a>.</p>
+    </div>
+    <footer>
+      <div class="container">
+        <p>
+          <span class="one-liner"><a href="https://scalingo.com">Scalingo</a> is the best Platform as a Service on the market:</span>
+          no server to install, no dependencies to install, just push your code!
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

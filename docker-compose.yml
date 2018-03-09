@@ -1,0 +1,9 @@
+version: '3'
+services:
+  sample-java-spark:
+    build: .
+    ports:
+      - 3000:3000
+    volumes:
+      - .:/usr/src/app
+    command: 'java -cp "target/dependency/*":target/classes com.scalingo.app.App'
