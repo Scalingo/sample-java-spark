@@ -1,7 +1,7 @@
 package com.scalingo.app;
 
 /**
- * @author Léo Unbekandt
+ * @author Leo Unbekandt
  * @version 2015/03/25
  */
 
