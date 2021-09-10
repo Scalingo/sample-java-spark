@@ -1,0 +1,7 @@
+{
+  "name": "Sample Java Spark",
+  "description": "Sample Application using Java and Spark",
+  "logo": "https://scalingo.com/logo.svg",
+  "repository": "https://github.com/Scalingo/sample-java-spark",
+  "website": "https://java-spark.is-easy-on-scalingo.com/"
+}
