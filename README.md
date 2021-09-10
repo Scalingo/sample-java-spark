@@ -1,20 +1,37 @@
-# sample-java-spark
+# Sample Application using Java and Spark
 
-## Dev environment
+This sample is running on: https://java-spark.is-easy-on-scalingo.com/
+
+## Deploy via Git
+
+Create an application on https://scalingo.com, then:
+
+```shell
+scalingo -a my-app git-setup
+git push scalingo master
+```
+
+And that's it!
+
+## Deploy via One-Click
+
+[![Deploy to Scalingo](https://cdn.scalingo.com/deploy/button.svg)](https://my.scalingo.com/deploy)
+
+## Running Locally
 
 Build with:
 
-```sh
-docker-compose run sample-java-spark mvn clean install
+```shell
+docker-compose build
 ```
 
-This is automatically done when building the container. However, it is
-mandatory to build it again after modifying a file.
+This is automatically done when building the container.
+However, it is mandatory to build it again after modifying a file.
 
 Run the server with:
 
-```sh
-docker-composer up --build
+```shell
+docker-composer up
 ```
 
-Then the website is available at `http://localhost:3000/`.
+The application is available at: http://localhost:3000/.
