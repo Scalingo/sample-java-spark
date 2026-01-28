@@ -1,4 +1,4 @@
-FROM maven:3.5.2-jdk-8
+FROM maven:3.9.4-eclipse-temurin-25
 
 WORKDIR /usr/src/app
 
@@ -6,4 +6,4 @@ EXPOSE 3000
 
 COPY . /usr/src/app
 
-CMD "mvn clean install"
+CMD ["mvn", "clean", "package"]
