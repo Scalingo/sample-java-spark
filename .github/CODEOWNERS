@@ -1,0 +1,4 @@
+# CODEOWNERS Automatic assignment
+
+# Java (bundler)
+pom.xml @SC-Samir
