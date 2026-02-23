@@ -20,7 +20,7 @@
     <slf4j.version>2.0.17</slf4j.version>
 
     <maven.compiler.plugin.version>3.14.1</maven.compiler.plugin.version>
-    <maven.dependency.plugin.version>3.9.0</maven.dependency.plugin.version>
+    <maven.dependency.plugin.version>3.10.0</maven.dependency.plugin.version>
   </properties>
 
   <dependencyManagement>
