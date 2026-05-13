@@ -1,0 +1,7 @@
+dependencies = []
+description = "Java/Spark sample application"
+languages = ["dockerfile", "java"]
+owner = "devrel@scalingo.com"
+team = "DevRel"
+version = "1.0.2"
+tier = 2
